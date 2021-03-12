@@ -1,6 +1,7 @@
 .app {
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
 }
 
 .box {
@@ -10,8 +11,7 @@
 	background-color: #222124;
 	background-image: url(./image/blik.png);
 	background-repeat: no-repeat;
-    background-size:  100% 460px;
-   
+	background-size: 100% 460px;
 }
 
 .title {
@@ -38,6 +38,25 @@
 	letter-spacing: 0.1em;
 
 	color: rgba(255, 255, 255, 0.6);
+}
+
+.icon1 {
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+	background-image: url(./image/icon1.svg);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.woman {
+	height: 145px;
+	width: 145px;
+}
+
+.disturbs {
+	color: #f6c866;
+	background-color: blueviolet;
 }
 
 .box2 {
