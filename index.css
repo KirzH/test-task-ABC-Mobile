@@ -1,0 +1,46 @@
+.app {
+	display: flex;
+	flex-direction: column;
+}
+
+.box {
+	display: flex;
+	flex-direction: column;
+	height: 1098px;
+	background-color: #222124;
+	background-image: url(./image/blik.png);
+	background-repeat: no-repeat;
+    background-size:  100% 460px;
+   
+}
+
+.title {
+	/* position: absolute; */
+	padding-top: 25px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 19px;
+	text-align: center;
+	letter-spacing: 0.1em;
+	color: rgba(255, 255, 255, 0.6);
+}
+
+.forecast {
+	margin-top: 31px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 25px;
+	line-height: 29px;
+	text-align: center;
+	letter-spacing: 0.1em;
+
+	color: rgba(255, 255, 255, 0.6);
+}
+
+.box2 {
+	height: 100px;
+	background-color: brown;
+}
