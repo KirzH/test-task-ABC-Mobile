@@ -1,20 +1,22 @@
 .box {
-	/* display: flex; */
-	/* flex-direction: column; */
+	display: flex;
+	flex-direction: column;
 	/* justify-content: center; */
 
 	height: 1751px;
 	width: 100%;
 
 	background-color: #202024;
-	background-image: url(../../image/blik.png);
-	background-repeat: no-repeat;
+	/* background-image: url(../../image/blik.png) ; */
+	/* background-repeat: no-repeat; */
+
+	background: url(../../image/blik.png) no-repeat center  fixed #202024;
 }
 
 .title {
 	height: 19.1px;
 	left: 462px;
-	margin-top: 36px;
+	padding-top: 36px;
 
 	font-family: Roboto;
 	font-style: normal;
@@ -40,8 +42,7 @@
 .forecast {
 	height: 29.51px;
 	left: 462px;
-	margin-top: 31px;
-	/* padding-top: 11px; */
+	margin-top: 54px;
 
 	font-family: Roboto;
 	font-style: normal;
@@ -57,12 +58,11 @@
 }
 
 .vector {
-	height: 345px;
-	width: 345px;
-	background-image: url(../../image/icon1.svg);
-	background-repeat: no-repeat;
-	background-position: center;
+	/* height: 345px;
+	width: 345px; */
+	/* background-image: url(../../image/icon1.svg); */
+	background: url(../../image/icon1.svg) no-repeat;
+	background-color: aqua;
 }
 .woman {
-    
 }
