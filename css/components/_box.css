@@ -1,16 +1,8 @@
 .box {
-	display: flex;
-	flex-direction: column;
-	/* justify-content: center; */
-
 	height: 1751px;
 	width: 100%;
-
-	background-color: #202024;
-	/* background-image: url(../../image/blik.png) ; */
-	/* background-repeat: no-repeat; */
-
-	background: url(../../image/blik.png) no-repeat center  fixed #202024;
+	background: url(../../image/blik.png) no-repeat #202024;
+	background-position: center;
 }
 
 .title {
@@ -58,11 +50,18 @@
 }
 
 .vector {
-	/* height: 345px;
-	width: 345px; */
-	/* background-image: url(../../image/icon1.svg); */
-	background: url(../../image/icon1.svg) no-repeat;
-	background-color: aqua;
+	justify-content: center;
+	background-size: 30%;
 }
-.woman {
+
+.vector__icon {
+	justify-content: center;
+	height: 345px;
+	width: 345px;
+	background: url(../../image/icon1.svg) no-repeat center;
+}
+
+.vector__woman {
+	align-items: center;
+	
 }
