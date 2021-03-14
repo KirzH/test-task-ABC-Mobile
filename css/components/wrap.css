@@ -1,0 +1,63 @@
+.wrap {
+	max-width: 1920px;
+}
+
+.holder {
+	height: 1980px;
+
+	background: url(../../image/blik.png);
+	background-color: #202024;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center center;
+}
+
+.heading {
+	padding-top: 36px;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 19px;
+	text-align: center;
+	letter-spacing: 0.1em;
+
+	color: rgba(255, 255, 255, 0.6);
+}
+
+hr {
+	margin-top: 39pxpx;
+
+	border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.forecast {
+	font-family: Roboto;
+	font-style: normal;
+	font-size: 25px;
+	line-height: 29px;
+	/* identical to box height */
+
+	text-align: center;
+	letter-spacing: 0.1em;
+
+	color: rgba(255, 255, 255, 0.6);
+}
+
+.vector {
+	justify-content: center;
+}
+
+.vector__pic {
+	height: 345px;
+	width: 345px;
+
+	margin-top: 64px;
+
+	background-image: url(../../image/icon1.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+
+}

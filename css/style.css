@@ -4,4 +4,6 @@
 @import "_variables.css";
 @import "_vendor.css";
 
-@import "./components/_box.css"
+@import "./components/wrap.css";
+@import "./components/main.css";
+@import "./components/box.css";
