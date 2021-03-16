@@ -1,0 +1,158 @@
+.wrap {
+	max-width: 1920px;
+}
+.holder {
+	height: 1980px;
+
+	background: url(../../image/blik.png);
+	background-color: #202024;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center center;
+}
+
+.heading {
+	justify-content: center;
+
+	padding-top: 36px;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 19px;
+	letter-spacing: 0.1em;
+
+	color: rgba(255, 255, 255, 0.6);
+}
+
+hr {
+	/* width: 300px; */
+	margin-top: 39pxpx;
+	border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.forecast {
+	font-family: Roboto;
+	font-style: normal;
+	font-size: 25px;
+	line-height: 29px;
+	/* identical to box height */
+
+	text-align: center;
+	letter-spacing: 0.1em;
+
+	color: rgba(255, 255, 255, 0.6);
+}
+
+.vector {
+	justify-content: center;
+}
+
+.vector__pic {
+	height: 345px;
+	width: 345px;
+
+	margin-top: 64px;
+
+	background-image: url(../../image/icon1.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+
+	justify-content: center;
+	align-items: center;
+}
+
+img {
+	height: 220px;
+}
+
+.question {
+	height: 130.2px;
+	left: 668.02px;
+	top: 548.58px;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	line-height: 35px;
+	/* or 140% */
+
+	text-align: center;
+
+	color: #f6c866;
+}
+
+.big {
+	text-transform: uppercase;
+}
+
+.btn {
+	margin-top: 60px;
+}
+
+.btn__yes {
+	width: 310.75px;
+	height: 69.44px;
+	left: 763.5px;
+	top: 718.71px;
+
+	background: linear-gradient(
+		90deg,
+		rgba(246, 200, 102, 0.9) -6.2%,
+		rgba(254, 173, 53, 0.9) 100%
+	);
+	border-radius: 50px;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 23px;
+	text-align: center;
+
+	color: #ffffff;
+}
+
+.btn__no {
+	margin-top: 35px;
+	width: 310.75px;
+	height: 69.44px;
+	left: 763.5px;
+	top: 718.71px;
+
+	background: linear-gradient(
+		90deg,
+		rgba(246, 200, 102, 0.9) -6.2%,
+		rgba(254, 173, 53, 0.9) 100%
+	);
+	border-radius: 50px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 23px;
+	text-align: center;
+
+	color: #ffffff;
+}
+
+.prediction {
+	margin-top: 35px;
+	justify-content: center;
+	height: 60.76px;
+	left: 483px;
+	top: 927.03px;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 19px;
+	text-align: center;
+	letter-spacing: 0.1em;
+
+	color: rgba(255, 255, 255, 0.6);
+}
