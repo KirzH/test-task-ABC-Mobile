@@ -1,4 +1,148 @@
 .main {
-    height: 200px;
-    background-color: aqua;
+	padding-top: 100px;
+	height: 100%;
+	background-color: #202024;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
 }
+
+.secret {
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 443px;
+	height: 437px;
+	left: 695px;
+	top: 1088px;
+
+	border: 1px solid #ffffff;
+	box-sizing: border-box;
+	border-radius: 3px;
+}
+
+.secret__hands {
+	width: 227px;
+	height: 151px;
+	margin-bottom: 500px;
+	position: absolute;
+}
+
+.secret__text {
+	width: 365px;
+	height: 225px;
+	left: 727px;
+	top: 1217px;
+
+	margin-top: 54px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	line-height: 35px;
+	/* or 140% */
+
+	text-align: center;
+
+	color: #ffffff;
+}
+
+.predictions {
+	margin-top: 69px;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.photo {
+	justify-content: center;
+	align-items: center;
+	width: 1440px;
+	height: 606px;
+	left: 196px;
+	top: 1595px;
+	background-image: url(../../image/image\ 7.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+}
+
+.predictions__text {
+	width: 380.19px;
+	height: 258.67px;
+	left: 727.04px;
+	top: 1835px;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	line-height: 35px;
+	/* or 140% */
+
+	text-align: center;
+	align-items: center;
+
+	color: #ffffff;
+}
+.txt {
+	margin-top: 133px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	line-height: 29px;
+	text-align: center;
+	text-transform: uppercase;
+
+	color: #f6c866;
+}
+
+.btn__questions {
+	margin-top: 47px;
+}
+
+.questions {
+	margin-top: 35px;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 19px;
+	text-align: center;
+	letter-spacing: 0.1em;
+
+	color: rgba(255, 255, 255, 0.6);
+}
+
+.rune {
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.rune_one {
+	margin-top: 106px;
+	width: 56.52px;
+	height: 17.36px;
+	left: 888.49px;
+	top: 2755.85px;
+	background: url(../../image/rune1.svg) no-repeat;
+}
+
+.eye {
+	width: 296.84px;
+	height: 156.61px;
+	margin-left: 1253px;
+	top: 2698.4px;
+	background: url(../../image/eye-1.svg) no-repeat;
+	left: 75.48%;
+	right: 9.06%;
+	top: 84.04%;
+	bottom: 11.09%;
+
+	/* background: rgba(255, 255, 255, 0.2); */
+	transform: rotate(-9.61deg);
+}
+

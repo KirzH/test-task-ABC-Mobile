@@ -2,13 +2,13 @@
 	max-width: 1920px;
 }
 .holder {
-	height: 1980px;
+	height: 1000px;
 
 	background: url(../../image/blik.png);
 	background-color: #202024;
 	background-repeat: no-repeat;
 	background-size: 100%;
-	background-position: center center;
+	background-position: 0 -450px;
 }
 
 .heading {
@@ -57,21 +57,20 @@ hr {
 
 	background-image: url(../../image/icon1.svg);
 	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 100%;
 
+	background-size: 100%;
 	justify-content: center;
 	align-items: center;
 }
 
 img {
-	height: 220px;
+	height: 210px;
 }
 
 .question {
-	height: 130.2px;
-	left: 668.02px;
-	top: 548.58px;
+	height: 130px;
+	left: 668px;
+	top: 549px;
 
 	font-family: Roboto;
 	font-style: normal;
@@ -94,10 +93,10 @@ img {
 }
 
 .btn__yes {
-	width: 310.75px;
-	height: 69.44px;
-	left: 763.5px;
-	top: 718.71px;
+	width: 311px;
+	height: 69px;
+	left: 763px;
+	top: 719px;
 
 	background: linear-gradient(
 		90deg,
@@ -118,10 +117,10 @@ img {
 
 .btn__no {
 	margin-top: 35px;
-	width: 310.75px;
-	height: 69.44px;
-	left: 763.5px;
-	top: 718.71px;
+	width: 311px;
+	height: 69px;
+	left: 763px;
+	top: 719px;
 
 	background: linear-gradient(
 		90deg,
@@ -142,9 +141,9 @@ img {
 .prediction {
 	margin-top: 35px;
 	justify-content: center;
-	height: 60.76px;
+	height: 61px;
 	left: 483px;
-	top: 927.03px;
+	top: 9273px;
 
 	font-family: Roboto;
 	font-style: normal;
